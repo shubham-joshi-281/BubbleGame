@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #aedd68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.panel {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.paneltop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 7rem;
+  gap: 1rem;
+  background-color: #30490b;
+}
+.box {
+  display: flex;
+  padding: 0rem 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.box > h2 {
+  font-size: 1.8rem;
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+.box > p {
+  padding: 0.4rem 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  color: #000;
+}
+.panelbottom {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #e1e1e1;
+  height: calc(100% - 7rem);
+  overflow: hidden;
+  padding: 0.8rem;
+  gap: 1.7rem;
+  color: #000;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.circle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #4bb918;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
